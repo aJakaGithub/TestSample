@@ -4,7 +4,7 @@ thresholds = [('low', 0),('medium',0.5)]
 thresholds = pd.DataFrame(thresholds)
 print(thresholds)
 
-prob = pd.Series([1,2,3,4,5,6])
+prob = pd.Series([1,2,3,4,5,6,7,8,9,10])
 
 for p in prob:
         print("prob start")
