@@ -1,6 +1,6 @@
 import pandas as pd
 
-thresholds = [('low', 0),('medium',0.5)]
+thresholds = [('low', 0),('medium',0.5),('high',1)]
 thresholds = pd.DataFrame(thresholds)
 print(thresholds)
 
